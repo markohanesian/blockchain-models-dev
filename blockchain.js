@@ -1,4 +1,4 @@
-let sha256 = require('./js-sha256')
+let sha256 = require('js-sha256')
 
 class Blockchain {
     constructor(genesisBlock) {
@@ -17,6 +17,11 @@ class Blockchain {
 
     generateHash(block) {
 
+        let hash = sha256(block.key)
+        return hash
+
     }
 
 }
+
+module.exports = Blockchain
