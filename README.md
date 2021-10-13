@@ -1,4 +1,4 @@
-# ReactSocial
+# Blockchain Models Development
 <!-- ![ReactSocial preview image](/public/react-social-preview.png) -->
 
 ## Links
